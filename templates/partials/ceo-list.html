@@ -1,0 +1,5 @@
+<h1>${title}</h1>
+
+<ul> 
+    ${data.map(executive => `<li><a href='./ceos/${executive.slug}'> ${executive.name} - ${executive.first_year_active}</a></li>`).join('')}
+</ul>
